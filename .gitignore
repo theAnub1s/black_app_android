@@ -1,0 +1,34 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle / Kotlin / generated files
+.gradle/
+.kotlin/
+**/build/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine settings
+local.properties
+.DS_Store
+Thumbs.db
+
+# Output packages and signing credentials
+*.apk
+*.aab
+*.ap_
+*.jks
+*.keystore
+*.hprof
+*.log
+/app/release/
+
+# User credentials / local environment
+.env
+.env.*
+!*.example
